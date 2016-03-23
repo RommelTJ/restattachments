@@ -1,0 +1,32 @@
+Building and running the Project using Maven
+---------------------------------------
+
+1) Right CLick on the project in eclipse .Go to the Run As menu item and do 
+
+  Maven clean 
+  
+2) And then repeat the step 1 and do a
+  
+  Maven install
+  
+
+To Run the application:
+-------------------------
+
+Right click on the project, go to the Run As Menu Item and select run on the server option.
+
+
+Accessing the REST Attachments Service
+=================================
+
+URL to access the File Upload Page:
+
+http://localhost:8080/restattachments/fileupload.html
+
+REST URL for file upload:
+
+http://localhost:8080/restattachments/services/fileService/upload
+
+REST URL for file Download:
+
+http://localhost:8080/restattachments/services/fileService/download
